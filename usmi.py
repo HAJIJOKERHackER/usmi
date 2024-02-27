@@ -392,7 +392,7 @@ def approval():
       #msg = str(os.geteuid())
       pass
     else:
-      print("\33[1;32m YOUR KEY :\x1b[38;5;46m "+id)
+      print("\33[1;32m YOUR KEY :\x1b[38;5;43m "+id)
       print('\33[1;37m ====================================================')
       print("\33[1;37m ====================================================")
       print("\33[1;36m NOTE:- THIS TOOL IS PAID \n YOU HAVE TO PAY FOR APPROVAL FIRST .")
