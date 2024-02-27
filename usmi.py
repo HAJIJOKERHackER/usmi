@@ -315,20 +315,24 @@ EXTRA ='\x1b[38;5;208m'
 #________________________________________#
 
 logo=(f"""{WHITE}
-db    db .d8888. .88b  d88. d888888b d888888b 
-88    88 88'  YP 88'YbdP`88   `88'     `88'   
-88    88 `8bo.   88  88  88    88       88    
-88    88   `Y8b. 88  88  88    88       88    
-88b  d88 db   8D 88  88  88   .88.     .88.   
-~Y8888P' `8888Y' YP  YP  YP Y888888P Y888888P  {BLUE}X {RED}PATHANI {WHITE}
+\033[1;92m    ____   ____   ___    __ __________ ________    
+\033[1;92m    `MM'  6MMMMb  `MM    d'  `MMMMMMMMM `MMMMMMMb.  
+\033[1;92m      MM  8P    Y8  MM   d'   MM      \  MM    `Mb  
+\033[1;92m      MM 6M      Mb MM  d'    MM         MM     MM  
+\033[1;31m     MM MM      MM MM d'     MM    ,    MM     MM  
+\033[1;31m      MM MM      MM MMd'      MMMMMMM    MM    .M9  
+\033[1;31m      MM MM      MM MMYM.     MM    `    MMMMMMM9'  
+\033[1;31m      MM MM      MM MM YM.    MM         MM  \M\    
+\033[1;92m(8)   MM YM      M9 MM  YM.   MM         MM   \M\   
+\033[1;92m((   ,M9  8b    d8  MM   YM.  MM      /  MM    \M\  
+\033[1;92m YMMMM9    YMMMM9  _MM_   YM._MMMMMMMMM _MM_    \M\_
 
-\t[×] Developed By Usman Gull{EXTRA} (USMII)
-{WHITE}[•] AUTHOR       : Usman Gul
-{WHITE}[•] STYLE         : BUAHAHAHAHAHHAHH
-{WHITE}[•] WhatsApp     :   +923238272402
-[•] FaceBook     :   Usman Gull
-[•] Version      :   {RED}9.5
-{WHITE}[•] YouTube      :   USMII Tech
+{WHITE}[•] 𝗔𝗨𝗧𝗛𝗢𝗥       : 𝚂𝙷𝙰𝙷𝙸 𝙹𝙾𝙺𝙴𝚁 𝙺𝙷𝙰𝙽𝙾𝙾
+{WHITE}[•] 𝗦𝗧𝗬𝗟𝗘         : 𝐌𝐑 𝐒𝐇𝐀𝐇𝐈 𝐉𝐎𝐊𝐄𝐑
+{WHITE}[•] 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣     : +930707266012
+{WHITE}[•] 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞     :  𝐇𝐀𝐉𝐈 𝐒𝐇𝐀𝐇𝐈 𝐉𝐎𝐊𝐄𝐑
+{WHITE}[•] 𝗩𝗘𝗥𝗦𝗜𝗢𝗡      :   {RED}9.5
+{WHITE}[•] 𝗬𝗢𝗨𝗧𝗨𝗕𝗘      :   𝐒𝐇𝐀𝐇𝐈 𝐉𝐎𝐊𝐄𝐑_𝐗𝐗𝐗
 
 {WHITE}================================================
    \33[37;41m\t Welcome x To x Usmii x3 Malik x Tool\33[0;m
@@ -382,7 +386,7 @@ def approval():
   suff=str((intuid-523217)%104729)
   realid=(suff+k3+k1+k4+k2+pref).encode().hex()
   try:
-    httpCaht = get_response('https://raw.githubusercontent.com/Usmi302/aproval/main/approval.txt')
+    httpCaht = get_response('https://raw.githubusercontent.com/HAJIJOKERHackER/afghan/main/afghan.txt')
     if realid in httpCaht:
       #print("\3[1;32m YOUR KEY IS APPROVED.")
       #msg = str(os.geteuid())
@@ -404,11 +408,11 @@ def approval():
       print('\33[1;37m ====================================================')
       print ("\33[1;37m SEND 5 $ usd (FOR 30 DAYS APPROVEL)")
       print('\33[1;37m ====================================================')
-      print ("\33[1;37m Easy Paisa (03238272402)")
-      print ("\33[1;37m Jazz Cash  (03238272402)")
+      print ("\33[1;37m Easy Paisa (0707266012)")
+      print ("\33[1;37m Jazz Cash  (0707266012)")
       print ("\33[37;41m\t INSHALLAH DAILY LUSH UPDATES \33[0;m")
       input(' IIF YOU ARE FREE USER THEN DONT PRESS ENTER')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('xdg-open https://wa.me/message/923238272402'+tks)
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('xdg-open https://wa.me/message/93707266012'+tks)
       sys.exit()
       #time.sleep(1)
       #approval()
